@@ -32,6 +32,9 @@ public class HelloController {
     @Autowired
     private Environment env;
 
+    @Autowired
+    private Person person;
+
 
 
     @RequestMapping("/hello")
@@ -51,6 +54,13 @@ public class HelloController {
 
         System.out.println(env.getProperty("person.name"));
         System.out.println(env.getProperty("address[0]"));
+
+        System.out.println("------------------------------");
+        System.out.println(person);
+        String[] address = person.getAddress();
+        for (String addr : address) {
+            System.out.println(addr);
+        }
 
         return "Hello Spring Boot demo2!";
     }

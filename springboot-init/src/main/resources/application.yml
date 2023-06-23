@@ -6,6 +6,7 @@ name: abc
 person:
   name: Allan # ${name}
   age: 20
+  address: [Seattle, Shanghai]
 
 # Object inline
 person2: {name: Caleb, age: 21}
