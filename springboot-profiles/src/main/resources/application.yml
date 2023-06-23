@@ -25,7 +25,7 @@ spring:
 ---
 spring:
   profiles:
-    active: pro
+    active: dev
 
 # Another approach:
 # Edit configuration =>
