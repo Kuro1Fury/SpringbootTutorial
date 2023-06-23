@@ -1,2 +1,24 @@
-#server:
-#  port: 8082
+server:
+  port: 8082
+
+name: abc
+# Object
+person:
+  name: Allan # ${name}
+  age: 20
+  address: [Seattle, Shanghai]
+
+# Object inline
+person2: {name: Caleb, age: 21}
+
+# Array
+address:
+  - Seattle
+  - Shanghai
+
+# Array inline
+address2: [Seattle, Shanghai]
+
+# Scalar
+msg1: 'hello \n world' # will not be parsed
+msg2: "hello \n world" # will be parsed
