@@ -1,0 +1,33 @@
+---
+server:
+  port: 8081
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+---
+server:
+  port: 8082
+
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+server:
+  port: 8083
+
+spring:
+  config:
+    activate:
+      on-profile: pro
+---
+spring:
+  profiles:
+    active: pro
+
+# Another approach:
+# Edit configuration =>
+#   VM options: -Dspring.profiles.active=test
+#   Program arguments: --spring.profiles.active=test
