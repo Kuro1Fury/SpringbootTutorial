@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-init/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-profiles/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-config/springboot-test/pom.xml" />
       </list>
     </option>
   </component>
