@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-helloworld" />
         <module name="springboot-init" />
         <module name="springboot-profiles" />
+        <module name="springboot-helloworld" />
+        <module name="springboot-config" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-config" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-init" options="-parameters" />
       <module name="springboot-profiles" options="-parameters" />
