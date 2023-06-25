@@ -8,6 +8,7 @@ import com.example.domain.Role;
 import com.example.domain.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Import;
@@ -54,10 +55,13 @@ public class SpringbootEnableApplication {
 //		Role role = context.getBean(Role.class);
 //		System.out.println(role);
 
-		Object user = context.getBean("user");
+//		Object user = context.getBean("user");
 
 //		Map<String, User> map = context.getBeansOfType(User.class);
 //		System.out.println(map);
+
+		RedisProperties.Jedis jedis = context.getBean(RedisProperties.Jedis.class);
+		System.out.println(jedis);
 	}
 
 }
