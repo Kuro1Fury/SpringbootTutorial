@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot-condition/enable" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-enable" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-enable-other" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,6 +17,8 @@
         <option value="$PROJECT_DIR$/springboot-config/springboot-test/springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-config/springboot-test/springboot-redis/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-condition/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-enable/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-enable-other/pom.xml" />
       </list>
     </option>
   </component>
