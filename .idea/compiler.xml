@@ -12,12 +12,14 @@
         <module name="springboot-mybatis" />
         <module name="springboot-profiles" />
         <module name="springboot-test" />
+        <module name="springboot-condition" />
         <module name="springboot-helloworld" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-condition" options="-parameters" />
       <module name="springboot-config" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-init" options="-parameters" />
