@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/redis-spring-boot-starter" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-condition/enable" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-deploy" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-enable" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-enable-other" />
   </component>
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/redis-spring-boot-autoconfigure/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-listener/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-deploy/pom.xml" />
       </list>
     </option>
   </component>
