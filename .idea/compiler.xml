@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-redis" />
-        <module name="springboot-config" />
         <module name="springboot-enable-other" />
-        <module name="springboot-init" />
         <module name="springboot-enable" />
-        <module name="springboot-mybatis" />
         <module name="redis-spring-boot-starter" />
-        <module name="springboot-profiles" />
         <module name="springboot-test" />
         <module name="springboot-condition" />
+        <module name="springboot-redis" />
+        <module name="springboot-config" />
+        <module name="springboot-init" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-profiles" />
         <module name="springboot-helloworld" />
         <module name="redis-spring-boot-autoconfigure" />
+        <module name="springboot-listener" />
       </profile>
     </annotationProcessing>
   </component>
@@ -31,6 +32,7 @@
       <module name="springboot-enable-other" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-init" options="-parameters" />
+      <module name="springboot-listener" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-profiles" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
