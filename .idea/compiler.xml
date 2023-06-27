@@ -11,6 +11,7 @@
         <module name="redis-spring-boot-starter" />
         <module name="springboot-test" />
         <module name="springboot-condition" />
+        <module name="springboot-actuator" />
         <module name="springboot-redis" />
         <module name="springboot-config" />
         <module name="springboot-init" />
@@ -26,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="redis-spring-boot-autoconfigure" options="-parameters" />
       <module name="redis-spring-boot-starter" options="-parameters" />
+      <module name="springboot-actuator" options="-parameters" />
       <module name="springboot-condition" options="-parameters" />
       <module name="springboot-config" options="-parameters" />
       <module name="springboot-enable" options="-parameters" />
